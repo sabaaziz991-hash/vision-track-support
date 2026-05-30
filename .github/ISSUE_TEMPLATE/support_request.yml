@@ -1,0 +1,69 @@
+name: Support request
+description: Ask for help with Vision Track app behavior, compatibility, purchases, or routines.
+title: "Support: "
+labels:
+  - support
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a Vision Track support request. GitHub Issues are public, so do not include personal, medical, payment, or sensitive information.
+  - type: dropdown
+    id: topic
+    attributes:
+      label: Topic
+      options:
+        - App behavior
+        - Device compatibility
+        - Purchases or subscriptions
+        - Routine/game question
+        - App Store review or listing issue
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: app-version
+    attributes:
+      label: App version
+      placeholder: "Example: 1.0"
+    validations:
+      required: false
+  - type: input
+    id: device-ios
+    attributes:
+      label: Device and iOS version
+      placeholder: "Example: iPhone 15, iOS 18.5"
+    validations:
+      required: false
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the issue or question in a few sentences.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Add steps only if this is an app behavior issue.
+      placeholder: |
+        1. Open ...
+        2. Tap ...
+        3. See ...
+    validations:
+      required: false
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What did you expect to happen?
+    validations:
+      required: false
+  - type: checkboxes
+    id: public-info
+    attributes:
+      label: Public information check
+      options:
+        - label: I did not include personal, medical, payment, or sensitive information.
+          required: true

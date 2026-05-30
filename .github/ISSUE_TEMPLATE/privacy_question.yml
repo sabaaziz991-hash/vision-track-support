@@ -1,0 +1,36 @@
+name: Privacy question
+description: Ask a public privacy question about Vision Track.
+title: "Privacy: "
+labels:
+  - privacy
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for general privacy questions about Vision Track. GitHub Issues are public, so do not include personal, medical, payment, or sensitive information.
+  - type: dropdown
+    id: topic
+    attributes:
+      label: Topic
+      options:
+        - Camera and blink awareness
+        - Routine progress and local storage
+        - App Store privacy details
+        - Purchase and subscription privacy
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: Ask the privacy question without personal or sensitive details.
+    validations:
+      required: true
+  - type: checkboxes
+    id: public-info
+    attributes:
+      label: Public information check
+      options:
+        - label: I did not include personal, medical, payment, or sensitive information.
+          required: true

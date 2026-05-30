@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Vision Track public support page
+    url: https://sabaaziz991-hash.github.io/vision-track-support/support.html
+    about: Read support details, privacy notes, subscription notes, and common questions.
+  - name: Manage Apple subscriptions
+    url: https://support.apple.com/billing
+    about: Manage, cancel, or request help with Apple App Store purchases.
