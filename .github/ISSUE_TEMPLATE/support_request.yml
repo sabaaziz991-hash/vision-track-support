@@ -1,5 +1,5 @@
 name: Support request
-description: Ask for help with Vision Track app behavior, compatibility, purchases, or routines.
+description: Ask for help with ViewWell app behavior, compatibility, purchases, or routines.
 title: "Support: "
 labels:
   - support
@@ -7,7 +7,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for reporting a Vision Track support request. GitHub Issues are public, so do not include personal, medical, payment, or sensitive information.
+        Thanks for reporting a ViewWell support request. GitHub Issues are public, so do not include personal, medical, payment, or sensitive information.
   - type: dropdown
     id: topic
     attributes:

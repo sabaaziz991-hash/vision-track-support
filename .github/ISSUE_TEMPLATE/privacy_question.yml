@@ -1,5 +1,5 @@
 name: Privacy question
-description: Ask a public privacy question about Vision Track.
+description: Ask a public privacy question about ViewWell.
 title: "Privacy: "
 labels:
   - privacy
@@ -7,7 +7,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Use this form for general privacy questions about Vision Track. GitHub Issues are public, so do not include personal, medical, payment, or sensitive information.
+        Use this form for general privacy questions about ViewWell. GitHub Issues are public, so do not include personal, medical, payment, or sensitive information.
   - type: dropdown
     id: topic
     attributes:

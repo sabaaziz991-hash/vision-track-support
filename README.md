@@ -1,6 +1,6 @@
-# Vision Track Public Pages
+# ViewWell Public Pages
 
-Public App Store review pages for Vision Track:
+Public App Store review pages for ViewWell:
 
 - Privacy Policy: `privacy.html`
 - Support: `support.html`
